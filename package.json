@@ -2,14 +2,13 @@
     "name": "todo-app",
     "version": "1.0.0",
     "description": "간단한 Todo 리스트 웹사이트",
-    "main": "server.js",
+    "main": "server-postgres.js",
     "scripts": {
-        "start": "node server.js",
-        "dev": "nodemon server.js"
+        "start": "node server-postgres.js",
+        "dev": "nodemon server-postgres.js"
     },
     "dependencies": {
         "express": "^4.18.2",
-        "sqlite3": "^5.1.6",
         "pg": "^8.11.3",
         "cors": "^2.8.5"
     },
